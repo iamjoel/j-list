@@ -32,7 +32,7 @@ npm install --save @joel007/list
 </template>
 <script>
 import Vue from 'vue'
-import jList from 'j-list'
+import jList from '@joel007/list'
 Vue.use(jList)
 
 export default {
