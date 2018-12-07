@@ -1,7 +1,7 @@
 {
-  "name": "@iamjoel/list",
+  "name": "@joel007/list",
   "description": "A Vue.js Plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "joel",
     "email": "iamjoel007@gmail.com"
@@ -19,8 +19,7 @@
     "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",
     "build": "npm run build:browser && npm run build:common",
     "build:browser": "cross-env NODE_ENV=production webpack --config config/webpack.config.browser.js --progress --hide-modules",
-    "build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --progress --hide-modules",
-    "prepublish": "npm run build"
+    "build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --progress --hide-modules"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
