@@ -1,5 +1,5 @@
 # vue-list
-[![npm](https://img.shields.io/npm/v/@lucky-joel/list.svg) ![npm](https://img.shields.io/npm/dm/@lucky-joel/list.svg)](https://www.npmjs.com/package/@lucky-joel/list)
+[![npm](https://img.shields.io/npm/v/@lucky-joel/vue-list.svg) ![npm](https://img.shields.io/npm/dm/@lucky-joel/vue-list.svg)](https://www.npmjs.com/package/@lucky-joel/vue-list)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 基于 [Vant](https://youzan.github.io/vant/) List 组件封装的 Vue.js 插件。
