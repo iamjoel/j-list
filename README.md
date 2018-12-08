@@ -1,5 +1,5 @@
-# j-list
-[![npm](https://img.shields.io/npm/v/@joel007/list.svg) ![npm](https://img.shields.io/npm/dm/@joel007/list.svg)](https://www.npmjs.com/package/@joel007/list)
+# vue-list
+[![npm](https://img.shields.io/npm/v/@lucky-joel/list.svg) ![npm](https://img.shields.io/npm/dm/@lucky-joel/list.svg)](https://www.npmjs.com/package/@lucky-joel/list)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 基于 [Vant](https://youzan.github.io/vant/) List 组件封装的 Vue.js 插件。
@@ -12,7 +12,7 @@
 ## 安装
 
 ```
-npm install --save @joel007/list
+npm install --save @lucky-joel/vue-list
 ```
 
 ## 使用
@@ -20,20 +20,20 @@ npm install --save @joel007/list
 ```
 <template>
 <ul>
-  <j-list 
+  <lj-list 
     url="/singer/list"
   >
     <template slot-scope="scope" v-if="scope.data">
       <li>{{scope.data.name}}</li>
     </template>
-  </j-list>
+  </lj-list>
 </ul>
 
 </template>
 <script>
 import Vue from 'vue'
-import jList from '@joel007/list'
-Vue.use(jList)
+import List from '@lucky-joel/vue-list'
+Vue.use(List)
 
 export default {
   ...

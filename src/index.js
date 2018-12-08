@@ -2,7 +2,7 @@ import Main from './components/Main.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('j-list', Main)
+  Vue.component('lj-list', Main)
   /* -- Add more components here -- */
 }
 
