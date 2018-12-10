@@ -4,19 +4,16 @@
 
 基于 [Vant](https://youzan.github.io/vant/) List 组件封装的 Vue.js 插件。
 
-## Table of contents
-
+## 目录
 - [安装](#安装)
 - [使用](#使用)
 
 ## 安装
-
 ```
 npm install --save @lucky-joel/vue-list
 ```
 
 ## 使用
-
 ```
 <template>
 <ul>
@@ -47,12 +44,10 @@ npm run build
 ```
 
 ## 发布到 npm
-
 ```
 npm run build
 npm publish --access public
 ```
-
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)

@@ -1,7 +1,7 @@
 {
   "name": "@lucky-joel/vue-list",
-  "description": "A Vue.js Plugin",
-  "version": "1.0.0",
+  "description": "vue list plugin",
+  "version": "1.0.2",
   "author": {
     "name": "joel",
     "email": "iamjoel007@gmail.com"
@@ -12,8 +12,8 @@
     "plugin"
   ],
   "license": "MIT",
-  "main": "dist/j-list.common.js",
-  "unpkg": "dist/j-list.browser.js",
+  "main": "dist/vue-list.common.js",
+  "unpkg": "dist/vue-list.browser.js",
   "module": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",

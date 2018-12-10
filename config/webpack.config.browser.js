@@ -3,8 +3,8 @@ var merge = require('webpack-merge')
 var base = require('./webpack.config.base')
 var path = require('path')
 
-var outputFile = 'j-list'
-var globalName = 'j-list'
+var outputFile = 'vue-list'
+var globalName = 'vue-list'
 
 module.exports = merge(base, {
   output: {

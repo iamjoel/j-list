@@ -1,8 +1,8 @@
 var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-var outputFile = 'j-list'
-var globalName = 'j-list'
+var outputFile = 'vue-list'
+var globalName = 'vue-list'
 
 var config = require('../package.json')
 
