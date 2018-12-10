@@ -1,14 +1,14 @@
-import Main from './components/Main.vue'
+import Index from './components/Index.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('lj-list', Main)
+  Vue.component('lj-list', Index)
   /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  Main,
+  Index,
   /* -- Add more components here -- */
 }
 
