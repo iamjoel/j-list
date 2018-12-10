@@ -1,3 +1,2 @@
-export { default } from './dist/j-list.common'
-export * from './dist/j-list.common'
-import './dist/j-list.css'
+export { default } from './dist/vue-list.common'
+export * from './dist/vue-list.common'
