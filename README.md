@@ -38,6 +38,14 @@ export default {
 </script>
 ```
 
+
+参数:  
+* url: 接口地址。必填。
+* page-limit: 每页条数。默认五条。
+* search-condition: 搜索条件。 对象类型。
+* order: 分页。数组类型。 形如 `['name', 'desc或asc']`。
+* is-infinate: 是否无限加载。 默认是。
+
 ## 构建
 ```
 npm run build
